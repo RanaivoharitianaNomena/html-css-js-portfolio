@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!--controle la mise en page des navigateurs mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--lien css -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!--Icone box -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--Header -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+                
+                <div>
+                    <p  class="nav_logo">Nomena</p>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <div class="nav_close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Accueil</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">A Propos</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Compétences</a></li>
+                       
+                    </ul>
+                </div> 
+            </nav>
+        </header>
+
+        <main class="l-main" >
+            <!--Accueil-->
+            <section class="home" id="home">
+                <div class="home_container bd-grid">
+                    <div class="home_data">
+                        <div class="home_img">
+                            <img src="assets/img/profil.jpg" alt="sary profil">
+                        </div>
+
+                        <h1 class="home_title">Andry Nomena</h1>
+                        <span class="home_profession">Developpeur FrontEnd et BackEnd</span>
+
+                        <div class="home_social">
+                            <a href="https://www.facebook.com/go2bird" class="home_social-link"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="https://github.com/RanaivoharitianaNomena" class="home_social-link"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                    
+            </section>
+            <section class="about section" id="about">
+                
+                
+                <h2 class="section-title">A propos de moi</h2>
+
+                <div class="about container bd-grid">
+                    <div class="about_data">
+                        <p class="about_description">Bonjour, je m'appelle Ranaivoharitiana Fiarenatsoa Andry Nomena et je suis un developpeur FrontEnd et Backend. De nationalité Malagasy et vivant à Tana en ce moment, je suis actuellement étudiant à l'Institut Supérieur Polytechnique de Madagascar Antsobolo. </p>
+                        <img src="assets/img/smile.jpg" alt="eto" class="about_img">
+                    </div>
+                    
+                    <div class="about_information">
+                        <h3 class="about_information-title">Informations</h3>
+
+                      
+
+                        <div class="about_information-data">
+                            <i class='bx bx-phone about_information-icon' ></i>
+                            <span>+261 32 99 131 43</span>
+                        </div>
+                        
+                        <div class="about_information-data">
+                            <i class='bx bx-envelope about_information-icon' ></i>
+                            <span>ranaivoharitiananomena@gmail.com</span>
+                        </div>
+                        <br>
+                            <h3 class="about_information-title">Etudes</h3>
+
+                            <div class="about_information-data">
+                                <i class='bx bx-medal about_information-icon' ></i>
+                                 <div>
+                                     <span class="about_information-subtitle">Licence en Informatique de Gestion, Génie Logiciel et Intelligence Artificielle</span>
+                                     <span class="about_information-subtitle-small">Diplôme</span>
+                                 </div>
+                            </div>
+
+                            <div class="about_information-data">
+                                <br>
+                                <h3 class="about_information-title">Projets</h3>
+                                <i class='bx bx-briefcase about_information-icon' ></i>
+                                 <div>
+                                     <span class="about_information-subtitle">8 projets</span>
+                                     <span class="about_information-subtitle-small">Réalisés</span>
+                                 </div>
+                            </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="skills section" id="skills">
+                <spanc class="section-subtitle">Pourquoi me recommander?</spanc>
+                <h2 class="section-title">Mes points fort</h2>
+
+                <div class="skills_container bd-grid">
+                    <div class="skills_content">
+                        <h3 class="skills_subtitle">FrontEnd</h3>
+
+                        <div class="skills_data">
+                            <span class="skills_name">Html/css</span>
+                            <span class="skills_number">70%</span>
+                            <span class="skills_bar skills_html"></span>
+                        </div>
+
+                        <div class="skills_data">
+                            <span class="skills_name">Javascript</span>
+                            <span class="skills_number">60%</span>
+                            <span class="skills_bar skills_js"></span>
+                        </div>
+
+
+                        <div class="skills_content">
+                            <h3 class="skills_subtitle">BackEnd</h3>
+    
+                            <div class="skills_data">
+                                <span class="skills_name">C#</span>
+                                <span class="skills_number">80%</span>
+                                <span class="skills_bar skills_c"></span>
+                            </div>
+    
+                            <div class="skills_data">
+                                <span class="skills_name">Java</span>
+                                <span class="skills_number">50%</span>
+                                <span class="skills_bar skills_java"></span>
+                            </div>
+
+                            <div class="skills_data">
+                                <span class="skills_name">Php</span>
+                                <span class="skills_number">65%</span>
+                                <span class="skills_bar skills_php"></span>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="education section">
+                <spanc class="section-subtitle">Formation académques</spanc>
+                <h2 class="section-title">Mes parcours</h2>
+
+                <div class="education_container bd-grid">
+                    <div class="education_content">
+                        <div>
+                            <h3 class="education_year">2015-2018</h3>
+                            <span class="education_university">Informatique de Gestion, Génie Logiciel et Intelligence Artificielle</span>
+                            
+                        </div>
+
+                        <div class="education_time">
+                            <span class="education_rounder"></span>
+                            <span class="education_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education_race">Licence en Informatique </h3>
+                            
+                        </div>
+
+                        <div>
+                            <h3 class="education_year">2018-2020</h3>
+                            <span class="education_university">Informatique de Gestion, Génie Logiciel et Intelligence Artificielle</span>
+                            
+                        </div>
+
+                        <div class="education_time">
+                            <span class="education_rounder"></span>
+                            <span class="education_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education_race">Préparation du Master</h3>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--footer-->
+        <footer class="footer section">
+            <div class="footer_container bd-gird">
+               
+                <p class="footer_description">Hey! Merci d'avoir visionner mon site web!</p>
+                <p class="footer_description">Consulter moi aussi ici :</p>
+                <div class="footer_social">
+                    <a href="https://www.facebook.com/go2bird" class="footer_link"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/ranaivoharitiana/" class="footer_link"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <p class="footer_copy"> Made by Andry Nomena - 2020</p>
+            </div>
+        </footer>
+
+        <!--reference Js-->
+        <script src="assets/js/main.js"></script>
+       
+    </body>
+</html>
